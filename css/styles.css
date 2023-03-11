@@ -84,7 +84,7 @@ img {
   cursor: pointer;
 }
 .main-button {
-  min-width: 160px;
+  min-width: 169px;
   height: 56px;
   display: block;
   margin: 0 auto;
@@ -175,13 +175,15 @@ img {
   gap: 40px;
 }
 
-.site-nav .link,
-.site-portfolio .portfolio-link {
+.site-nav .link {
   color: var(--secondary-text-color);
   font-weight: 500;
   text-decoration: none;
   display: block;
   padding: 24px 0;
+}
+.portfolio-link {
+  text-decoration: none;
 }
 .site-nav .link:hover {
   color: var(--hover-current-color);
@@ -259,7 +261,7 @@ img {
 .team-bc-color {
   background-color: var(--logo-part-color);
 }
-team-card {
+.team-card {
   background: var(--main-heading-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
